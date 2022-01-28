@@ -21,14 +21,13 @@ namespace GIS_test_duplicates
                 {
                     res.Add(arr[n], 1);
 
-                    if (n + 1 != arr.Count - 1)
-                    {
                         while (arr[n] == arr[n + 1])
                         {
                             res[arr[n]]++;
                             n++;
+                            if (n + 1 >= arr.Count) 
+                            break;
                         }
-                    }
                 }
 
                 n++;
