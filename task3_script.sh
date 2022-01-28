@@ -6,4 +6,4 @@ w;
 printf "Operating system: ";
 uname;
 printf "Time passed since creation: ";
-uptime p;
+uptime;
