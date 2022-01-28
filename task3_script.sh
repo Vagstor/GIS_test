@@ -4,6 +4,6 @@ date;
 printf "Current processes and logged in users: ";
 w;
 printf "Operating system: ";
-uname;
+uname -a;
 printf "Time passed since creation: ";
 uptime;
